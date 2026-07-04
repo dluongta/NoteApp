@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(),NoteClickInterface, NoteClickDeleteInte
         noteRV.adapter = noteRVAdapter
         viewModal = ViewModelProvider(this,ViewModelProvider.AndroidViewModelFactory.getInstance(application)).get(NoteViewModal::class.java)
         viewModal.allNotes.observe(this, {
-            list ->
+                list ->
             list?.let {
                 noteRVAdapter.updateList(it)
             }
