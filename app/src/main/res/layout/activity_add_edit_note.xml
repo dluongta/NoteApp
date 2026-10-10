@@ -14,7 +14,7 @@
         android:hint="Enter Note Title"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:backgroundTint="#FF6C00"
+        android:backgroundTint="#FF9800"
         android:layout_margin="10dp"/>
 
     <EditText
@@ -26,7 +26,7 @@
         android:layout_margin="10dp"
         android:layout_marginTop="108dp"
         android:layout_marginBottom="-58dp"
-        android:backgroundTint="#FF6C00"
+        android:backgroundTint="#FF9800"
         android:gravity="start|top"
         android:hint="Enter Note Description"
         android:inputType="textMultiLine"
